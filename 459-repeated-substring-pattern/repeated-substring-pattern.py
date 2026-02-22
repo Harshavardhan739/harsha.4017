@@ -1,3 +1,4 @@
 class Solution(object):
     def repeatedSubstringPattern(self, s):
-        return s in s[1:]+s[:-1]
+        double =s+s
+        return s in double[1:-1]
